@@ -29,3 +29,24 @@ interactive on-screen 2D dustbins with prediction highlights, making it educatio
 
 5️⃣ Scalability & Real-World Usability
  modular pipeline that can be extended to more waste types, IoT-based sorting bins, or even robotic integration.
+
+
+ 🔹 Dataset Flow
+We used the Waste Classification Dataset
+ from Kaggle containing 22,500 images divided into two categories:
+
+Organic 🥬 → food waste, natural materials
+
+Recyclable ♻️ → plastics, metals, paper, glass
+
+📂 Dataset Structure
+dataset/
+│
+├── TRAIN/                 # Training images (85%)
+│   ├── Organic/           # Organic waste images
+│   └── Recyclable/        # Recyclable waste images
+│
+├── TEST/                  # Testing images (15%)
+│   ├── Organic/
+│   └── Recyclable/
+
