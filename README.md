@@ -1,4 +1,5 @@
 ♻️ Automated Waste Segregation with Computer Vision
+
 📌 What is this project?
 
 This project is a deep learning–based waste classification system that automatically identifies waste items as Organic or Recyclable using computer vision.
