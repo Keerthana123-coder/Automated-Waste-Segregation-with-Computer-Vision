@@ -1,52 +1,24 @@
-♻️Automated-Waste-Segregation-with-Computer-Vision
+♻️ Automated Waste Segregation with Computer Vision
+📌 What is this project?
 
-Project Description
+This project is a deep learning–based waste classification system that automatically identifies waste items as Organic or Recyclable using computer vision.
 
-This project implements an AI-powered waste classification and segregation system using Deep Learning, OpenCV, and MediaPipe.
-It classifies waste items into Organic or Recyclable, and uses hand gesture recognition for virtual interaction with colored dustbins displayed on screen.
-The system is designed for real-time execution .
+📦 What I am developing
 
-🔹 Improvements Over Existing Projects
+A Convolutional Neural Network (CNN) trained on the Kaggle Waste Classification Dataset.
 
-Most existing waste classification projects stop at static image classification.
-This project introduces several unique improvements:
+Image upload testing in Google Colab (predicts category for single images).
 
-1️⃣ From Static to Real-Time
+Real-time webcam prediction (run locally in VSCode) that shows a message:
 
-supports live webcam classification for real-time waste detection.
+"Put in: Organic Bin"
 
-2️⃣ Gesture-Controlled Virtual Bins
+"Put in: Recyclable Bin"
 
-builds a visual dustbin interface and allows gesture-based interaction without mouse/keyboard.
+🎯 Purpose
 
-3️⃣ User-Friendly GUI
+To support sustainable waste management
 
-interactive on-screen 2D dustbins with prediction highlights, making it educational & user-friendly.
+To improve awareness of recycling practices
 
-4️⃣ Integration of Computer Vision + Deep Learning
-
- combines CNN classification with OpenCV & MediaPipe for gesture control.
-
-5️⃣ Scalability & Real-World Usability
- modular pipeline that can be extended to more waste types, IoT-based sorting bins, or even robotic integration.
-
-
- 🔹 Dataset Flow
-We used the Waste Classification Dataset
- from Kaggle containing 22,500 images divided into two categories:
-
-Organic 🥬 → food waste, natural materials
-
-Recyclable ♻️ → plastics, metals, paper, glass
-
-📂 Dataset Structure
-dataset/
-│
-├── TRAIN/                 # Training images (85%)
-│   ├── Organic/           # Organic waste images
-│   └── Recyclable/        # Recyclable waste images
-│
-├── TEST/                  # Testing images (15%)
-│   ├── Organic/
-│   └── Recyclable/
-
+To provide a simple and efficient AI-powered waste segregation tool
